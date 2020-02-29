@@ -1,0 +1,50 @@
+.article-page {
+  padding: 1em;
+  min-height: 100vh;
+
+  .post-wrapper {
+    min-width: 500px;
+    width: fit-content;
+    margin: 2em auto 2em auto;
+    .post {
+      background-color: $white;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 20px -18px #050505;
+
+      .date {
+        float: right;
+      }
+
+      .date,
+      .author {
+        opacity: 0.4;
+      }
+
+      .title {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  .arrows {
+    position: relative;
+    background-color: rgba($white, 0.3);
+    margin-bottom: 10px;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    .disabled-link {
+      pointer-events: none;
+      opacity: 0.3;
+    }
+  }
+}

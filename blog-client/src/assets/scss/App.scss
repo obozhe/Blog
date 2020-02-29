@@ -1,0 +1,17 @@
+.App {
+  padding: 1em;
+  display: block;
+
+  .add-button{
+    float: right;
+  }
+
+  .posts-wrapper{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
