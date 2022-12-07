@@ -5,9 +5,9 @@
   "author": "obozhe",
   "license": "MTI",
   "dependencies": {
-    "body-parser": "^1.15.1",
+    "body-parser": "^1.20.1",
     "config": "^1.31.0",
-    "express": "^4.13.4",
+    "express": "^4.18.2",
     "mongoose": "^5.9.1",
     "morgan": "^1.7.0"
   },
