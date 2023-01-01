@@ -6,7 +6,7 @@
   "license": "MTI",
   "dependencies": {
     "body-parser": "^1.15.1",
-    "config": "^1.31.0",
+    "config": "^3.3.8",
     "express": "^4.13.4",
     "mongoose": "^5.9.1",
     "morgan": "^1.7.0"
